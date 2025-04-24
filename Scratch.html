@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Scratch Page</title>
+  <link rel="stylesheet" href="scratch-styles.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <h1>My From-Scratch Page</h1>
+
+    <!-- Favorite Hobbies with nested list -->
+    <div class="section" id="list-section">
+      <h2>My Favorite Hobbies</h2>
+      <ol>
+        <li>Volleyball
+          <ul>
+            <li>Indoor</li>
+            <li>Outdoor</li>
+          </ul>
+        </li>
+        <li>Hanging with friends</li>
+        <li>Going to BYU games</li>
+      </ol>
+    </div>
+
+    
+    <div class="section" id="image-section">
+      <h2>My Snapshot</h2>
+      <img 
+        src="/Users/joshcurtis/Library/CloudStorage/OneDrive-BrighamYoungUniversity/Information Systems/Scratch/IMG_1252.JPG" 
+        alt="My Hobby Photo" 
+        style="
+          display: block;
+          max-width: 300px;
+          width: 100%;
+          height: auto;
+          margin: 10px auto;
+          border: 2px solid #007bff;
+        "
+      />
+    </div>
+
+  
+    <!-- Video Section -->
+<div class="section" id="video-section">
+  <h2>Video Tutorial</h2>
+
+  <!-- Responsive wrapper with inline styles -->
+  <div style="
+    position: relative;
+    width: 100%;
+    max-width: 600px;      /* cap at 600px */
+    margin: 0 auto;        /* center */
+    padding-top: 56.25%;    /* 16:9 aspect ratio */
+  ">
+    <iframe
+      src="https://www.youtube.com/embed/cb6UGnSEDi4"
+      frameborder="0"
+      allowfullscreen
+      title="Embedded YouTube Video"
+      style="
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+      ">
+    </iframe>
+  </div>
+</div>
+
+    <!-- Flexbox demo (optional) -->
+    <div class="section flex-container">
+      <div>
+        <h2>Block A</h2>
+        <p>Flex item</p>
+      </div>
+      <div>
+        <h2>Block B</h2>
+        <p>Flex item</p>
+      </div>
+      <div>
+        <h2>Block C</h2>
+        <p>Flex item</p>
+      </div>
+    </div>
+
+   <!-- Interactive Tableau Visualization -->
+<div class="section" id="tableau-section">
+  <h2>Interactive Tableau Visualization</h2>
+  <iframe
+    src="https://public.tableau.com/views/RegionalSampleWorkbook/Storms?:embed=y&:showVizHome=no&:toolbar=yes"
+    width="100%"
+    height="600"
+    frameborder="0"
+    allowfullscreen>
+  </iframe>
+</div>
